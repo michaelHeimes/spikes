@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow</title>
+    <g id="01-Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Land-page" transform="translate(-210.000000, -1592.000000)" fill="#ffffff" fill-rule="nonzero">
+            <g id="Section-3---Why-SPIKES-Futures" transform="translate(111.000000, 1459.000000)">
+                <g id="Arrow" transform="translate(107.552303, 140.539283) rotate(-90.000000) translate(-107.552303, -140.539283) translate(100.052303, 132.039283)">
+                    <polygon id="Rectangle" transform="translate(7.585978, 7.118726) rotate(90.000000) translate(-7.585978, -7.118726) " points="0.494183021 6.52026208 14.6777729 6.52026208 14.6777729 7.71718949 0.494183021 7.71718949"></polygon>
+                    <g id="Group" transform="translate(0.377483, 7.181564)">
+                        <polygon id="Rectangle" transform="translate(4.201628, 4.232880) rotate(45.000000) translate(-4.201628, -4.232880) " points="-0.586035578 3.63442197 8.9892919 3.63442197 8.9892919 4.8313379 -0.586035578 4.8313379"></polygon>
+                        <polygon id="Rectangle" transform="translate(10.177653, 4.236632) rotate(135.000000) translate(-10.177653, -4.236632) " points="5.38998959 3.63817433 14.9653171 3.63817433 14.9653171 4.83509027 5.38998959 4.83509027"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

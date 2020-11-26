@@ -191,7 +191,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 function wpb_add_google_fonts() {
 
-wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans', false ); 
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Libre+Franklin', false ); 
 }
 
 // Disable Gutenberg

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="748px" height="620px" viewBox="0 0 748 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="01-Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Land-page" transform="translate(-693.000000, -170.000000)">
+            <g id="Hero" transform="translate(0.000000, 170.000000)">
+                <g id="Group-3" transform="translate(693.064516, 0.000000)">
+                    <path d="M-1.70530257e-13,620 L642.935,66.361 L642.935484,66 L746.935484,66 L746.935484,620 L-1.70530257e-13,620 Z" id="Combined-Shape" fill="#F15822"></path>
+                    <polygon id="Triangle" fill="#0052C1" points="746.935484 5.37764278e-16 746.935484 620 387.973299 620 26.9354839 620"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

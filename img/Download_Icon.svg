@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Download_Icon</title>
+    <g id="01-Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Land-page" transform="translate(-1087.000000, -60.000000)" fill="#0052C1" fill-rule="nonzero">
+            <g id="Text-link---Resource-guide" transform="translate(802.000000, 60.743969)">
+                <g id="Download_Icon" transform="translate(285.530516, 0.000000)">
+                    <rect id="Rectangle" x="0" y="19.7188631" width="20.4491913" height="1.46065652"></rect>
+                    <polygon id="Rectangle" transform="translate(10.257460, 8.687255) rotate(90.000000) translate(-10.257460, -8.687255) " points="1.60307053 7.95692641 18.9118503 7.95692641 18.9118503 9.41758293 1.60307053 9.41758293"></polygon>
+                    <g id="Group" transform="translate(1.460657, 8.763939)">
+                        <polygon id="Rectangle" transform="translate(5.127408, 5.165546) rotate(45.000000) translate(-5.127408, -5.165546) " points="-0.715161739 4.43522481 10.9699784 4.43522481 10.9699784 5.89586732 -0.715161739 5.89586732"></polygon>
+                        <polygon id="Rectangle" transform="translate(12.420182, 5.170125) rotate(135.000000) translate(-12.420182, -5.170125) " points="6.57761145 4.43980396 18.2627516 4.43980396 18.2627516 5.90044648 6.57761145 5.90044648"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

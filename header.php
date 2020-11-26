@@ -26,11 +26,12 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'spikes' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="container">
+		
+		<div class="grid-container fluid">
+		
+			<div class="inner grid-x grid-padding-x align-middle align-justify">
 			
-			<div class="inner">
-			
-				<div class="site-branding">
+				<div class="site-branding cell shrink">
 					<?php
 					the_custom_logo();
 					if ( is_front_page() && is_home() ) :
@@ -49,10 +50,10 @@
 					<?php endif; ?>
 				</div><!-- .site-branding -->
 				
-				<div class="links-wrap">
+				<div class="links-wrap cell shrink">
 				
 					<?php if( $file = get_field('resource_guide_file') ): ?>
-					    <a class="guide-dl" href="<?php echo $file;?>" download><?php the_field('resource_guide_link_text');?></a>
+					    <a class="guide-dl" href="<?php echo $file;?>" download><?php the_field('resource_guide_link_text');?><img src="<?php echo get_template_directory_uri(); ?>/img/Download_Icon.svg" alt="download-icon"></a>
 					<?php endif; ?>
 					
 					<?php 
@@ -66,8 +67,8 @@
 					<?php endif; ?>
 					
 				</div>
-
-<!--
+	
+	<!--
 				<nav id="site-navigation" class="main-navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'spikes' ); ?></button>
 					<?php
@@ -79,9 +80,10 @@
 					);
 					?>
 				</nav>
--->
+	-->
 				
 			</div>
 			
 		</div>
+			
 	</header><!-- #masthead -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="94px" viewBox="0 0 93 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Play button</title>
+    <defs>
+        <ellipse id="path-1" cx="36.4082117" cy="36.5481742" rx="35.6772724" ry="36.5481742"></ellipse>
+        <filter x="-25.9%" y="-15.7%" width="151.9%" height="150.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01-Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Land-page" transform="translate(-995.000000, -416.000000)">
+            <g id="Hero" transform="translate(5.000000, 170.000000)">
+                <g id="Video" transform="translate(745.970326, 124.000000)">
+                    <g id="Play-button" transform="translate(254.072224, 125.553079)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <polygon id="Triangle" fill="#4D4D4D" transform="translate(37.667410, 37.398132) rotate(-270.000000) translate(-37.667410, -37.398132) " points="37.6674095 31.5218751 44.4670698 43.2743883 30.8677492 43.2743883"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

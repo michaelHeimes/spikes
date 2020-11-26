@@ -12,11 +12,11 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="container">
+		<div class="grid-container">
 			
-			<div class="inner">
+			<div class="inner grid-x grid-padding-x">
 	
-				<div class="half left">
+				<div class="left cell small-12 medium-6 large-8">
 					
 				<?php 
 				$link = get_field('footer_logo_link');
@@ -36,11 +36,11 @@
 				    </a>
 				<?php endif; ?>
 					
-					<p><?php the_field('footer_copyright_text');?></p>
+					<p class="desktop copyright"><?php the_field('footer_copyright_text');?></p>
 					
 				</div>
 	
-				<div class="half right">
+				<div class="right cell small-12 medium-6 large-4">
 					
 					<div class="top">
 						Powered by 
@@ -54,6 +54,9 @@
 					<div class="bottom">
 						<?php the_field('footer_powered_by_copy');?>
 					</div>
+					
+					<p class="mobile copyright"><?php the_field('footer_copyright_text');?></p>
+
 					
 				</div>
 				
