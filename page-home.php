@@ -124,7 +124,7 @@ get_header();
 						
 					</div>				
 					
-					<div class="right cell small-12 medium-6 large-5 large-offset-1">
+					<div class="right cell small-12 medium-6 large-auto large-offset-1">
 						<?php if( have_rows('s1_table') ):?>
 							<?php while ( have_rows('s1_table') ) : the_row();?>
 							
@@ -276,7 +276,7 @@ get_header();
 						
 					</div>
 					
-					<div class="right cell small-12 medium-6 large-g large-offset-1">
+					<div class="right cell small-12 medium-6 large-5 large-offset-1">
 						
 						<?php 
 						$image = get_field('s3_image');
