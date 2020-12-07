@@ -60,14 +60,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Custom
 --------------------------------------------------------------*/
-/*
+.grid-container {
+	max-width: 90.5rem;
+}
+
 @media screen and (min-width:40em) {
 	.grid-container {
 		padding-left: 110px;
 		padding-right: 110px;
 	}
 }
-*/
 
 
 .sr-only {
@@ -109,10 +111,8 @@ span.superscript {
     bottom: 0.45em;
 }
 
-@media screen and (min-width:1330px) {
-	header#masthead {
-		padding: 0 2.8em;
-	}
+header#masthead {
+	padding: 0 2.8em;
 }
 
 main#primary {
@@ -125,13 +125,19 @@ section {
 }
 
 a.button {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	color: #fff;
 	background-color: #0052C1;
 	text-decoration: none;	
 	padding: 1em 2.041em;
 	margin: 0;
+}
+
+@media screen and (min-width:40em) {
+	a.button {
+		font-size: 18px;
+	}	
 }
 
 a.button:hover {
@@ -287,7 +293,8 @@ header .inner .links-wrap a.guide-dl img {
 
 .banner .inner .video-wrap {
 	position: relative;
-	max-width: 640px;
+	max-width: 585px;
+    max-height: 328px;
 	background: #D8D8D8;
 	-webkit-box-shadow: 6px 7px 16px 0 rgba(0,0,0,.5);
 	        box-shadow: 6px 7px 16px 0 rgba(0,0,0,.5);
@@ -400,7 +407,8 @@ header .inner .links-wrap a.guide-dl img {
 	}
 	
 	.banner .inner h1 {
-		font-size: 77px;
+		font-size: 54px;
+		font-size: 5.1vw;
 	}	
 	
 	.banner .inner h2 {
@@ -410,6 +418,12 @@ header .inner .links-wrap a.guide-dl img {
 	.banner .inner a.button {
 	}
 	
+}
+
+@media screen and (min-width:86em) {
+	.banner .inner h1 {
+		font-size: 77px;
+	}		
 }
 
 .s1 {
